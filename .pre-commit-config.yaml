@@ -45,3 +45,9 @@ repos:
     hooks:
       - id: detect-secrets
         args: ["--baseline", "linter/.secrets.baseline"]
+
+default_language_version:
+  python: python3
+
+# Top-level global settings
+exclude: '.*\.csv$' #
